@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel = "stylesheet" href = "./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Arial:wght@400;700&display=swap" rel="stylesheet">
+    <script src ="./js/script.js"></script>
+</head>
+<body>
+
+
+    <!-- navigation bar. this will be shared across all html files -->
+    <div class="topnav">
+        <a href="#" class="logo-mobile">Maroof's Bookshop</a>
+        <button class="icon" id="hamburgerBtn">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div id="mylinks">
+          <a href="index.html">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Book of the Day. javascript function will be used to randomise each page refresh-->    
+    <section class="botd">
+        <!-- Left side: Text content -->
+        <div class="botd_content">
+            <h2 class="botd_welcome">Book of the Day</h2>
+            <p class="botd_description">Discover your next enthralling journey from our curated collection! Each one filled with adventure and grandeur, and powerful enough to leave a long lasting impression. </p>
+        </div>
+        
+        <!-- book displayy -->
+        <article id="book_of_the_day">
+            <div class="book_display">
+                <div class="book_logo">
+                    <img src="" alt="">
+                </div>
+                <div class="shelf"></div>
+            </div>
+            <div class="book_summary">
+                <h3 class="title"></h3>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </article>
+    </section>
+
+     <div class = "books_offer_bar">
+        <h2>Books We Offer</h2>
+     </div>
+
+    <!-- book 1 -->
+    <main class = "book_layout">
+        <article class = "book_item">
+            <div class = "book_container">
+                <div class = "book_logo">
+                    <img src = "./images/rotk.png" alt = "rotk cover">
+                </div>
+                <div class = "book_summary">
+                    <h2>Romance of the Three Kingdoms</h2>
+                    <p class = "description">It dramatizes the turbulent years at the end of the Han dynasty and the Three Kingdoms period, chronicling the power struggles among the warlords Cao Cao, Liu Bei, and Sun Quan as they vie for control over China. The novel blends history and legend, exploring themes of loyalty, strategy, and heroism. As one of China's Four Great Classical Novels, it has profoundly influenced Chinese culture and literature. <br> <b><b>PS. Book Store owner's favourite character is Guan Yu!</b></b></p>
+                    <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+                </div>
+            </div>
+        </article>
+
+    <!-- book 2 -->
+    <article class = "book_item">
+        <div class = "book_container">
+            <div class = "book_logo">
+                <img src = "./images/summoner.png" alt = "summoner cover">
+            </div>
+            <div class = "book_summary">
+                <h2>Summoner: The Novice</h2>
+                <p class = "description">Summoner: The Novice follows Fletcher, a blacksmith's apprentice who discovers he has the rare ability to summon demons from another world. After a dangerous incident reveals his powers, he is sent to a military academy where gifted students are trained in magic and warfare. There, Fletcher must navigate rivalries, prejudice, and political intrigue, all while mastering his summoning skills and uncovering secrets that could change the fate of the empire. It's a fast-paced fantasy filled with action, magic, and coming-of-age themes.</p>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </div>
+    </article>
+
+    <!-- book 3 -->
+    <article class = "book_item">
+        <div class = "book_container">
+            <div class = "book_logo">
+                <img src = "./images/skulduggery.png" alt = "skull cover">
+            </div>
+            <div class = "book_summary">
+                <h2>Skulduggery Pleasant</h2>
+                <p class = "description">Skulduggery Pleasant follows twelve-year-old Stephanie Edgley, who discovers a hidden world of magic after her uncle's mysterious death. Teaming up with Skulduggery Pleasant—a wisecracking, fire-throwing, undead detective—Stephanie dives into a world of sorcerers, secrets, and supernatural danger. As they unravel a dark conspiracy, she must quickly learn to navigate magic, monsters, and mayhem in this witty, action-packed fantasy adventure.</p>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </div>
+    </article>
+
+    <!-- book 4 -->
+    <article class = "book_item">
+        <div class = "book_container">
+            <div class = "book_logo">
+                <img src = "./images/west.png" alt = "west cover">
+            </div>
+            <div class = "book_summary">
+                <h2>The Journey to the West</h2> 
+                <p class = "description">Journey to the West is a classic Chinese novel that follows the epic pilgrimage of the monk Tang Sanzang as he travels to India to obtain sacred Buddhist scriptures. He is accompanied by three magical disciples—most notably the mischievous and powerful Monkey King, Sun Wukong, along with the gluttonous Pigsy and the loyal Sandy. Along the way, they face numerous trials, demons, and moral challenges.</p>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </div>
+    </article>
+
+    <!-- book 5 -->
+    <article class = "book_item">
+        <div class = "book_container">
+            <div class = "book_logo">
+                <img src = "./images/got.png" alt = "got cover">
+            </div>
+            <div class = "book_summary">
+                <h2>A Game of Thrones</h2>
+                <p class = "description">Set in the fictional continents of Westeros and Essos, the series follows multiple interwoven storylines involving noble families vying for control of the Iron Throne and the Seven Kingdoms of Westeros. Key houses include the Starks, Lannisters, Baratheons, and Targaryens. Central characters such as Jon Snow, Daenerys Targaryen, and Tyrion Lannister navigate complex political intrigue, warfare, and supernatural threats.</p>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </div>
+    </article>
+
+    <!-- book 6 -->
+    <article class = "book_item">
+        <div class = "book_container">
+            <div class = "book_logo">
+                <img src = "./images/lotr.png" alt = "lotr cover">
+            </div>
+            <div class = "book_summary">
+                <h2>The Lord of the Rings</h2>
+                <p class = "description">The Lord of the Rings is an epic fantasy trilogy that follows Frodo Baggins, a humble hobbit tasked with destroying a powerful and corrupting artifact—the One Ring. Guided by the wizard Gandalf and joined by a diverse fellowship of allies, Frodo must journey across Middle-earth to Mount Doom, where the Ring can be destroyed. Along the way, they face dark forces led by the dark lord Sauron, who seeks to reclaim the Ring and conquer the world. Rich with lore, heroism, and themes of friendship and sacrifice, it's a cornerstone of modern fantasy literature.</p>
+                <a href="pay.html" class="pay_button"><strong>[PAY]</strong></a>
+            </div>
+        </div>
+    </article>
+</main>
